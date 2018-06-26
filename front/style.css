@@ -1,0 +1,60 @@
+body{
+    background: url("BG1.jpg");
+    background-size: cover;
+    background-repeat-y: no-repeat;
+    padding-right:2%;
+    padding-left:2%;
+     -moz-transition: background 1s; /* mozilla */
+     -webkit-transition: background 1s; /* chrome */
+    transition: background 1s;
+}
+.Buttons{
+    margin-top: 1%;
+}
+.chat :nth-child(even){
+  background-color:#ddd;
+}
+.Buttons button{
+    float:right;
+    margin: 1%;
+
+}
+.logo
+{
+    border-radius: 50%;
+    max-height: 10vh;
+}
+.intro img ,.intro p{
+    display: inline;
+}
+.intro p{
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: "comic sans MS";
+
+}
+
+header{
+    overflow: hidden;
+    border-bottom: 3px solid #c5c6cc;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+header img{
+    max-height: 20vh;
+    max-width: 100px;
+
+}
+header p{
+    position: relative;
+    bottom: 50%;
+}
+textarea{
+    margin-top: 3%;
+    opacity: 0.5;
+    height: 50vh;
+    min-width: 100%;
+    text-align: center;
+    font-size: 200%;
+}
